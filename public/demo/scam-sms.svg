@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#eceff3"/>
+  <rect x="180" y="40" width="440" height="400" rx="28" fill="#111"/>
+  <rect x="196" y="72" width="408" height="344" rx="8" fill="#f6f7f8"/>
+  <text x="400" y="100" text-anchor="middle" font-family="Arial" font-size="13" fill="#666">Messages</text>
+  <rect x="220" y="130" width="300" height="150" rx="12" fill="#d9fdd3"/>
+  <text x="236" y="156" font-family="Arial" font-size="13" fill="#111">StdBank</text>
+  <text x="236" y="180" font-family="Arial" font-size="12" fill="#222">STANDARD BANK: Unusual login</text>
+  <text x="236" y="198" font-family="Arial" font-size="12" fill="#222">detected. Verify now at</text>
+  <text x="236" y="216" font-family="Arial" font-size="12" fill="#0b57d0">http://standardbank-secure-example.com</text>
+  <text x="236" y="234" font-family="Arial" font-size="12" fill="#222">and share the OTP within 15 min</text>
+  <text x="236" y="252" font-family="Arial" font-size="12" fill="#222">or your account will be blocked.</text>
+  <text x="400" y="400" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">Synthetic demo SMS  not a real Standard Bank message</text>
+</svg>

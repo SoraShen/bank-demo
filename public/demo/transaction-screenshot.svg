@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#f4f5f7"/>
+  <rect x="90" y="40" width="620" height="400" fill="#fff"/>
+  <text x="120" y="80" font-family="Arial" font-size="20" fill="#0a2240">Recent transactions (demo)</text>
+  <text x="120" y="120" font-family="Arial" font-size="13" fill="#888">Synthetic statement  not live Standard Bank data</text>
+  <rect x="120" y="150" width="560" height="70" fill="#fff6e5"/>
+  <text x="136" y="178" font-family="Arial" font-size="16" fill="#111">ABC Insurance</text>
+  <text x="136" y="202" font-family="Arial" font-size="13" fill="#555">05 Sep 2026 · Debit Order · ABC INS PREM</text>
+  <text x="620" y="190" text-anchor="end" font-family="Arial" font-size="18" fill="#b42318">R286.00</text>
+  <text x="136" y="260" font-family="Arial" font-size="15" fill="#111">Woolworths Sandton</text>
+  <text x="620" y="260" text-anchor="end" font-family="Arial" font-size="16" fill="#111">R412.50</text>
+  <text x="136" y="300" font-family="Arial" font-size="15" fill="#111">Uber SA</text>
+  <text x="620" y="300" text-anchor="end" font-family="Arial" font-size="16" fill="#111">R87.20</text>
+</svg>

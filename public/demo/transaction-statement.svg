@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#fff"/>
+  <text x="40" y="50" font-family="Arial" font-size="18" fill="#0a2240">Demo statement extract</text>
+  <text x="40" y="90" font-family="Arial" font-size="14" fill="#333">05 Sep 2026    ABC Insurance    DEBIT ORDER    R286.00</text>
+  <text x="40" y="120" font-family="Arial" font-size="14" fill="#333">04 Sep 2026    Woolworths Sandton    CARD    R412.50</text>
+  <text x="40" y="150" font-family="Arial" font-size="14" fill="#333">01 Sep 2026    Netflix    DEBIT ORDER    R199.00</text>
+  <text x="40" y="440" font-family="Arial" font-size="11" fill="#888">Synthetic demo data only</text>
+</svg>

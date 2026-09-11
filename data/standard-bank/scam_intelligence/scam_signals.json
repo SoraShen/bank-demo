@@ -1,0 +1,15 @@
+[
+  {"id":"SIGNAL-OTP","type":"credential_request","name":"OTP request","severity":"HIGH","examples":["send your OTP","provide OTP","share your one-time PIN","one-time pin"],"source":"https://www.standardbank.co.za/southafrica/personal/products-and-services/security-centre/bank-safely/scams"},
+  {"id":"SIGNAL-PIN","type":"credential_request","name":"PIN request","severity":"HIGH","examples":["share your PIN","ATM PIN","card pin"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-PASSWORD","type":"credential_request","name":"Password request","severity":"HIGH","examples":["share your password","confirm your password","login details"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-URGENCY","type":"urgency","name":"Urgency","severity":"MEDIUM","examples":["immediately","within 24 hours","account will be blocked","act now","urgent"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-LINK","type":"suspicious_url","name":"Suspicious link","severity":"HIGH","examples":["click the link","verify here","http://","bit.ly"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-QR","type":"qr_code","name":"QR code","severity":"HIGH","examples":["scan this QR","scan the code"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-FAKE-APP","type":"fake_app","name":"Fake app","severity":"HIGH","examples":["install this app","download the update"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-IMPERSONATION","type":"impersonation","name":"Impersonation","severity":"HIGH","examples":["from Standard Bank","Standard Bank Fraud","your bank"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-SAFE-ACCOUNT","type":"safe_account","name":"Safe-account instruction","severity":"HIGH","examples":["move money to a safe account","transfer to a secure account"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-APPROVE","type":"transaction_approval","name":"Transaction approval request","severity":"HIGH","examples":["approve this transaction","confirm the payment"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-CARD","type":"card_detail_request","name":"Card-detail request","severity":"HIGH","examples":["card number","expiry date","CVV"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-ATTACHMENT","type":"malicious_attachment","name":"Malicious attachment","severity":"HIGH","examples":["open the attachment","download the document"],"source":"Standard Bank Security Centre"},
+  {"id":"SIGNAL-AI-SPOOF","type":"ai_spoofing","name":"AI-driven spoofing","severity":"HIGH","examples":["voice clone","this is your banker calling"],"source":"Standard Bank Security Centre"}
+]

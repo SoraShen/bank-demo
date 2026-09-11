@@ -1,0 +1,57 @@
+[
+  {
+    "id": "banking_app",
+    "name": "Standard Bank Banking App",
+    "type": "app",
+    "handoff": "mock_app",
+    "note": "Authenticated actions stay in the Banking App. This demo only shows a labelled handoff."
+  },
+  {
+    "id": "website",
+    "name": "Standard Bank website",
+    "type": "website",
+    "url": "https://www.standardbank.co.za/southafrica/personal"
+  },
+  {
+    "id": "security_centre",
+    "name": "Security Centre",
+    "type": "website",
+    "url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/security-centre"
+  },
+  {
+    "id": "scams",
+    "name": "Scams guidance",
+    "type": "website",
+    "url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/security-centre/bank-safely/scams"
+  },
+  {
+    "id": "fraud_line",
+    "name": "Fraud Line",
+    "type": "phone",
+    "sa": "0800 222 050",
+    "international": "+27 10 824 2090",
+    "tel": "tel:0800222050"
+  },
+  {
+    "id": "lost_card_line",
+    "name": "Lost or stolen cards",
+    "type": "phone",
+    "sa": "0800 020 600",
+    "international": "+27 10 824 1514",
+    "tel": "tel:0800020600"
+  },
+  {
+    "id": "contact_centre",
+    "name": "Personal Banking",
+    "type": "phone",
+    "sa": "0860 123 000",
+    "international": "+27 10 824 1515",
+    "tel": "tel:0860123000"
+  },
+  {
+    "id": "branch",
+    "name": "Branch",
+    "type": "locator",
+    "url": "https://www.standardbank.co.za/southafrica/personal/branch-locator"
+  }
+]

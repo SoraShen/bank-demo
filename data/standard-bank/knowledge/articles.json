@@ -1,0 +1,145 @@
+[
+  {
+    "id": "SEC-001",
+    "title": "AI-driven spoofing scams",
+    "category": "security",
+    "content": "AI-driven spoofing scams happen when criminals impersonate trusted organisations, including banks, using voice cloning, synthetic media and AI-generated messages. Fraudsters may claim there is suspicious activity, create urgency, and ask you to share an OTP, PIN or password, approve a transaction you did not initiate, move money to a “safe” account, or click a link, scan a QR code or install an app. Never share your OTP, PIN or passwords. Don’t approve transactions you didn’t initiate. Don’t move money based on a call, message or email. Verify via Trust Call, MyUpdates or a Trusted Person. Use only official Standard Bank platforms.",
+    "keywords": ["AI spoofing", "OTP", "PIN", "password", "safe account", "scam", "QR", "fake app"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/security-centre/bank-safely/scams",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "scam_detection"
+  },
+  {
+    "id": "SEC-002",
+    "title": "Email spoofing and phishing",
+    "category": "security",
+    "content": "Fraudsters clone reputable email addresses and may use AI to enhance phishing. Emails can create urgency (KYC/FICA), contain malware in links, icons, attachments or QR codes, or send you to a fake Standard Bank website. Standard Bank guidance: do not transfer funds to another account for safekeeping; do not click links or scan QR codes received by email; do not share sign-in credentials, CVV, OTP or ATM PIN. Report suspicious email by forwarding it as an attachment to phishing@standardbank.co.za.",
+    "keywords": ["phishing", "email", "FICA", "attachment", "QR", "OTP"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/security-centre/bank-safely/scams",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "scam_detection"
+  },
+  {
+    "id": "SEC-003",
+    "title": "Security Centre and reporting fraud",
+    "category": "security",
+    "content": "If you suspect fraudulent activity, call the Standard Bank Fraud Line on 0800 222 050 (international +27 10 824 2090) or report fraud in your Banking App. The Security Centre covers awareness, protection, prevention and reporting, plus Bank Safely, DigiMe, MyUpdates, Trust Call and Trusted Person.",
+    "keywords": ["fraud", "report", "0800 222 050", "Security Centre", "Trust Call"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/security-centre",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "scam_detection"
+  },
+  {
+    "id": "SEC-004",
+    "title": "Trust Call",
+    "category": "security",
+    "content": "Trust Call helps identify whether an incoming call is from Standard Bank. Verified Standard Bank calls show a confirmation pop-up. Unverified calls show an awareness prompt with options to contact the Fraud Centre, sign out of the Banking App, or select I know this caller. Enable it via Banking App phone permissions. Standard Bank says it does not record or listen to your calls.",
+    "keywords": ["Trust Call", "phone scam", "verified call"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/security-centre/bank-safely/trust-call",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "general_faq"
+  },
+  {
+    "id": "CARD-001",
+    "title": "How to manage your card on the app",
+    "category": "cards",
+    "content": "On the Banking App: Home → Accounts → Cards → select a card → Card Settings. To report lost or stolen, tap Report lost or stolen card and follow the prompts. Card settings can toggle card on/off, ATM, card machines, online purchases, Tap & Go, wearables & wallets, and Use your card abroad. Forgotten PIN: tap VIEW PIN and complete security checks in the authenticated app. Do not ask a chatbot for your real PIN.",
+    "keywords": ["manage card", "lost", "stolen", "PIN", "online purchases", "overseas"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/ways-to-bank/help-centre/manage-your-card",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "lost_card"
+  },
+  {
+    "id": "CARD-002",
+    "title": "Report a lost or stolen card",
+    "category": "cards",
+    "content": "If your card is lost or stolen, report it on the Banking App and request a new card. Lost Card Protection applies if you report within 24 hours (included in the monthly account fee). App path: sign in → navigate to the card → Report lost or stolen card → select the reason. You can also call 0800 020 600 or visit a branch. International: +27 10 824 1514.",
+    "keywords": ["lost card", "stolen card", "0800 020 600", "replacement"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/bank-with-us/credit-cards/managing-your-card",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "lost_card"
+  },
+  {
+    "id": "CARD-003",
+    "title": "Enable or disable card transactions",
+    "category": "cards",
+    "content": "In Card Settings you can switch the card on or off and control ATM, card machines, online purchases, Tap & Go, and wearables & wallets. App path: sign in → card → Card Settings → use the toggles. Alternatively call 0860 000 000 or visit a branch. This is a free service for cardholders.",
+    "keywords": ["card settings", "online purchases", "switch off", "Tap & Go"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/bank-with-us/credit-cards/managing-your-card",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "card_management"
+  },
+  {
+    "id": "CARD-004",
+    "title": "View or change your PIN",
+    "category": "cards",
+    "content": "View PIN on the Banking App: Manage → Cards → Card settings → View PIN. Cellphone Banking: dial 0860 123 000, option 2 twice for ATM/Card PIN retrieval. Or visit a branch. Change PIN at a Standard Bank ATM. Viewing or changing a PIN is a free service. A chatbot cannot retrieve your actual PIN.",
+    "keywords": ["PIN", "forgot PIN", "view PIN"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/bank-with-us/credit-cards/managing-your-card",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "card_management"
+  },
+  {
+    "id": "CARD-005",
+    "title": "Use your card abroad",
+    "category": "cards",
+    "content": "Activate overseas use on the Banking App: navigate to the card → Use Your Card Abroad → enter travel dates. Tell the bank before you leave so unexpected-location blocks are less likely. If a country is not listed, call 0861 201 000 or international +27 11 299 4520.",
+    "keywords": ["overseas", "abroad", "travel", "international"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/ways-to-bank/help-centre/manage-your-card",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "card_management"
+  },
+  {
+    "id": "PAY-001",
+    "title": "Debit orders and Help Centre actions",
+    "category": "payments",
+    "content": "Standard Bank’s public Help Centre lists Reverse a debit order and related self-service. Eligibility and execution are completed in the authenticated Banking App. This demo does not reverse or stop a debit order.",
+    "keywords": ["debit order", "reverse", "stop", "charge", "R286"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/ways-to-bank/help-centre",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "transaction_analysis"
+  },
+  {
+    "id": "PAY-002",
+    "title": "Verify an account number",
+    "category": "payments",
+    "content": "Standard Bank publishes a Help Centre guide to verify a bank account number before you make a payment. Use the official Verify an account number page or Banking App guidance.",
+    "keywords": ["verify account", "account number", "payment"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/security-centre",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "general_faq"
+  },
+  {
+    "id": "PROD-001",
+    "title": "Personal banking products (public overview)",
+    "category": "products",
+    "content": "Public Personal Banking covers bank accounts, credit cards, savings and investment, digital wallets (Shyft, SnapScan), foreign exchange, personal loans, vehicle finance, home loans, student loans, insurance and UCount Rewards. Compare options on the official Personal site. This demo does not open accounts.",
+    "keywords": ["accounts", "products", "credit cards", "savings"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "general_faq"
+  },
+  {
+    "id": "APP-001",
+    "title": "Banking App",
+    "category": "digital",
+    "content": "The Standard Bank Banking App is the authenticated channel for card settings, lost/stolen reporting, debit-order management, Trusted Person, Trust Call and fraud reporting. Download from official app stores via Standard Bank channels.",
+    "keywords": ["Banking App", "app", "digital"],
+    "source_url": "https://www.standardbank.co.za/southafrica/personal/products-and-services/ways-to-bank/help-centre",
+    "source_type": "official_standard_bank",
+    "last_verified": "2026-09-09",
+    "related_journey": "general_faq"
+  }
+]

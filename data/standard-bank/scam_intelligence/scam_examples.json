@@ -1,0 +1,35 @@
+[
+  {
+    "id": "EX-SMS-001",
+    "type": "SMS",
+    "sender": "StdBank",
+    "message": "STANDARD BANK: Unusual login detected. Verify now at http://standardbank-secure-example.com and share the OTP we send you within 15 minutes or your account will be blocked.",
+    "url": "http://standardbank-secure-example.com",
+    "signals": ["SIGNAL-OTP", "SIGNAL-URGENCY", "SIGNAL-LINK", "SIGNAL-IMPERSONATION"],
+    "risk_level": "HIGH",
+    "expected_recommendation": "Potential scam detected. Do not click the link or share an OTP.",
+    "demo_only": true
+  },
+  {
+    "id": "EX-WA-001",
+    "type": "WhatsApp",
+    "sender": "+27 60 000 0000",
+    "message": "Hi, this is Standard Bank Fraud. Move your money to this safe account now and approve the transaction. Reply with your PIN.",
+    "url": null,
+    "signals": ["SIGNAL-SAFE-ACCOUNT", "SIGNAL-APPROVE", "SIGNAL-PIN", "SIGNAL-IMPERSONATION", "SIGNAL-URGENCY"],
+    "risk_level": "HIGH",
+    "expected_recommendation": "Potential scam detected.",
+    "demo_only": true
+  },
+  {
+    "id": "EX-EMAIL-001",
+    "type": "Email",
+    "sender": "alerts@standardbank-secure-example.com",
+    "message": "FICA update required. Download the attached form and scan the QR code to keep your account open.",
+    "url": null,
+    "signals": ["SIGNAL-ATTACHMENT", "SIGNAL-QR", "SIGNAL-URGENCY", "SIGNAL-IMPERSONATION"],
+    "risk_level": "HIGH",
+    "expected_recommendation": "Potential scam detected.",
+    "demo_only": true
+  }
+]

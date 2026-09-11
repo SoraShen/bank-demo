@@ -1,0 +1,7 @@
+[
+  {"transaction_id":"TXN-10482","merchant":"ABC Insurance","amount":286,"currency":"ZAR","date":"2026-09-05","type":"DEBIT_ORDER","category":"Insurance","reference":"ABC INS PREM","recognised":false},
+  {"transaction_id":"TXN-10481","merchant":"Woolworths Sandton","amount":412.5,"currency":"ZAR","date":"2026-09-04","type":"CARD","category":"Groceries","reference":"WWSANDTON","recognised":true},
+  {"transaction_id":"TXN-10480","merchant":"Uber SA","amount":87.2,"currency":"ZAR","date":"2026-09-03","type":"CARD","category":"Transport","reference":"UBER*TRIP","recognised":true},
+  {"transaction_id":"TXN-10479","merchant":"Netflix","amount":199,"currency":"ZAR","date":"2026-09-01","type":"DEBIT_ORDER","category":"Entertainment","reference":"NETFLIX.COM","recognised":true},
+  {"transaction_id":"TXN-10478","merchant":"City Power","amount":1250,"currency":"ZAR","date":"2026-08-28","type":"DEBIT_ORDER","category":"Utilities","reference":"CITYPOWER","recognised":true}
+]

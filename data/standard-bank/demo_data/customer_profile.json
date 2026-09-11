@@ -1,0 +1,8 @@
+{
+  "id": "DEMO-CUST-001",
+  "name": "Thandi Mokoena",
+  "label": "Synthetic demo customer — not a real Standard Bank customer",
+  "cards": [
+    {"id": "CARD-01", "label": "Cheque card ••4412", "status": "active"}
+  ]
+}

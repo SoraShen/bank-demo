@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#eef1f5"/>
+  <rect x="80" y="40" width="640" height="400" fill="#fff" stroke="#d5dbe3"/>
+  <text x="100" y="80" font-family="Arial" font-size="14" fill="#444">From: alerts@standardbank-secure-example.com</text>
+  <text x="100" y="108" font-family="Arial" font-size="18" fill="#111">FICA update required</text>
+  <text x="100" y="150" font-family="Arial" font-size="14" fill="#222">Download the attached form and scan the QR code</text>
+  <text x="100" y="172" font-family="Arial" font-size="14" fill="#222">to keep your account open within 24 hours.</text>
+  <rect x="100" y="200" width="180" height="28" fill="#e8eef6"/>
+  <text x="110" y="219" font-family="Arial" font-size="12" fill="#0a2240">fica-update.pdf</text>
+  <text x="100" y="420" font-family="Arial" font-size="11" fill="#888">Synthetic demo email  not a real Standard Bank communication</text>
+</svg>

@@ -1,0 +1,51 @@
+{
+  "scam_detection": {
+    "journey": "scam_detection",
+    "workflow": ["INPUT", "VISION", "OCR", "INTENT", "KNOWLEDGE_RETRIEVAL", "SCAM_SIGNAL_MATCHING", "REASONING", "RECOMMENDATION", "FRAUD_LINE"],
+    "steps": [
+      {"id": "intent", "type": "ai", "action": "classify_intent"},
+      {"id": "request_image", "type": "conversation", "action": "request_upload"},
+      {"id": "vision", "type": "ai", "action": "ocr"},
+      {"id": "signals", "type": "knowledge", "action": "match_signals"},
+      {"id": "handoff", "type": "channel", "target": "fraud_line"}
+    ]
+  },
+  "lost_card": {
+    "journey": "lost_card",
+    "workflow": ["INPUT", "INTENT", "JOURNEY", "SECURITY_GUIDANCE", "BANKING_APP"],
+    "steps": [
+      {"id": "intent", "type": "ai", "action": "classify_intent"},
+      {"id": "lost_or_stolen", "type": "conversation", "action": "ask_reason"},
+      {"id": "security_guidance", "type": "knowledge", "action": "retrieve_guidance"},
+      {"id": "handoff", "type": "channel", "target": "banking_app"}
+    ]
+  },
+  "transaction_analysis": {
+    "journey": "transaction_analysis",
+    "workflow": ["INPUT", "VISION", "OCR", "TRANSACTION_MATCHING", "KNOWLEDGE_RETRIEVAL", "REASONING", "BANKING_APP"],
+    "steps": [
+      {"id": "intent", "type": "ai", "action": "classify_intent"},
+      {"id": "request_image", "type": "conversation", "action": "request_upload"},
+      {"id": "match", "type": "ai", "action": "match_transaction"},
+      {"id": "handoff", "type": "channel", "target": "banking_app"}
+    ]
+  },
+  "card_management": {
+    "journey": "card_management",
+    "workflow": ["INPUT", "INTENT", "KNOWLEDGE_RETRIEVAL", "RECOMMENDATION", "BANKING_APP"],
+    "steps": [
+      {"id": "intent", "type": "ai", "action": "classify_intent"},
+      {"id": "answer", "type": "knowledge", "action": "retrieve_guidance"},
+      {"id": "handoff", "type": "channel", "target": "banking_app"}
+    ]
+  },
+  "general_faq": {
+    "journey": "general_faq",
+    "workflow": ["INPUT", "INTENT", "KNOWLEDGE_RETRIEVAL", "REASONING", "WEBSITE"],
+    "steps": [
+      {"id": "intent", "type": "ai", "action": "classify_intent"},
+      {"id": "rag", "type": "knowledge", "action": "retrieve"},
+      {"id": "answer", "type": "ai", "action": "generate"}
+    ]
+  }
+}

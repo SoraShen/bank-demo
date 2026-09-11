@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+html, body { margin: 0; padding: 0; }
+body { background: #f4f5f7; }
+
+.sb-shell { display: flex; flex-direction: column; min-height: 100dvh; }
+.sb-main { display: grid; grid-template-columns: 1fr 400px; min-height: 0; flex: 1; }
+.sb-sitepane {
+  position: relative;
+  min-width: 0;
+  height: calc(100dvh - 42px);
+  overflow: hidden;
+  container-type: inline-size;
+}
+.sb-site-scroll { height: 100%; overflow: auto; }
+
+.sb-demobar {
+  position: sticky; top: 0; z-index: 70;
+  display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  background: #0a2240; color: #fff; font-size: 11px; padding: 6px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sb-demobar button {
+  border: 0; background: #16365c; color: #fff; padding: 4px 8px; border-radius: 4px; cursor: pointer;
+}
+.sb-demobar button:disabled { opacity: 0.45; }
+.sb-demobar button.sb-demobar__reset { background: #2a4a70; margin-left: 4px; }
+
+.sb-appmask {
+  position: fixed; inset: 0; background: rgb(10 34 64 / 0.45); z-index: 95;
+  display: grid; place-items: center;
+}
+.sb-app {
+  width: min(420px, calc(100vw - 32px)); background: #0a2240; color: #fff;
+  border-radius: 28px; padding: 28px 22px 22px; box-shadow: 0 24px 60px rgb(0 0 0 / 0.35);
+}
+.sb-app__badge { font-size: 11px; background: #f5c518; color: #0a2240; display: inline-block; padding: 3px 8px; border-radius: 4px; font-weight: 700; }
+.sb-app__crumbs { font-size: 12px; opacity: 0.8; }
+.sb-app h3 { margin: 8px 0; }
+.sb-app button { background: #0062e1; color: #fff; border: 0; border-radius: 8px; padding: 10px 14px; cursor: pointer; }
+
+@media (max-width: 1100px) {
+  .sb-main { grid-template-columns: 1fr; }
+}
